@@ -1,0 +1,30 @@
+# --- STM32CubeIDE / Eclipse ---
+.metadata/
+RemoteSystemsTempFiles/
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.map
+*.list
+*.pdom
+
+# --- KiCad ---
+*-backups/
+fp-info-cache
+*.kicad_prl
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+\#auto_saved_files#
+
+# --- Arduino ---
+build/
+
+# --- Editors / OS ---
+.history/
+.DS_Store
+*.swp
+*~
