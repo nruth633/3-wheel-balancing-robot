@@ -3,7 +3,7 @@
 #include <WebSocketsServer.h>
 #include <ArduinoJson.h>
 
-const char* ssid     = "3Wheel Controller - Luke";
+const char* ssid     = "3Wheel Controller - Nic";
 const char* password = "";
 
 // Commands sent to robot over UART : w / s / a / d / x (stop)
