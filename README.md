@@ -3,7 +3,8 @@
 A three-wheel robot on an STM32F401 control board I designed in KiCad and soldered by hand.
 An ESP8266 runs its own WiFi access point and serves a control page, so you can drive it from
 a phone browser. Button presses go over a WebSocket to the ESP8266, which passes them to the
-STM32 over UART. Roll and pitch from the MPU6050 are sent back to the page.
+STM32 over UART. Roll and pitch from the MPU6050 are sent back to the page. The STM32 firmware was provided
+by my professor; I built it and flashed the board with STM32CubeIDE and STM32CubeProgrammer.
 
 I started this as a self-balancing robot, but I didn't get as far as a working balance
 controller, so for now it only drives. The wheel encoder code is also switched off, so the
