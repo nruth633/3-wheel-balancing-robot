@@ -1,0 +1,18 @@
+# STM32CubeIDE
+.metadata/
+RemoteSystemsTempFiles/
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.map
+*.list
+*.pdom
+
+# KiCad
+*-backups/
+fp-info-cache
+*.kicad_prl
+*-bak
